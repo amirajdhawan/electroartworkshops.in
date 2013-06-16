@@ -1,6 +1,18 @@
 /* Getting the new tags to behave */
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
 mark, rp, rt, ruby, summary, time {display:inline}
+/* Self made class et al */
+.self_but {
+	background:transparent url(../images/self_but.png) repeat-x;
+	padding:9px 15px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-decoration: none;
+	color:white;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 15px;
+}
 /* Global properties ======================================================== */
 html {width:100%}
 body {font-family:Arial, Helvetica, sans-serif;font-size:100%;color:#262626;min-width:980px;background:#fff}

@@ -14,7 +14,15 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen"> 
 	<script src="js/jquery.galleriffic.js" type="text/javascript"></script>
-	<script src="js/jquery.opacityrollover.js" type="text/javascript"></script>      
+	<script src="js/jquery.opacityrollover.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".group1").colorbox({rel:'group1' , transition:"fade"});
+			$(".group2").colorbox({rel:'group2' , transition:"fade"});
+			$(".group3").colorbox({rel:'group3' , transition:"fade"});
+			$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+		});
+	</script>
 	<!--[if lt IE 7]>
 		<div style=' clear: both; text-align:center; position: relative;'>
 			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0"  alt="" /></a>
@@ -52,7 +60,6 @@
 				<div class="container_12">
 					<div class="grid_9">
 						<h1>
-							<!--<a class="logo" href="index.html">Ele<strong>c</strong>tro Art Workshops</a>-->
 							<a href="index.html"><img src="images/logo.png" height="100px" width="400px" /></a>
 							<span></span>
 						</h1>
@@ -78,8 +85,58 @@
 				<div class="bg">
 					<div class="bg-top-shadow">
 						<div class="main">
-							<div class="gallery p3" style="text-align:center;">
-								<img src="images/coming.jpg"  />
+							<div class="gallery p3">
+								<!--<img src="images/coming.jpg"  />-->
+								<article class="grid">
+									<div style="width:180px;height:155px;display:inline-block;margin-right:20px;">
+										<img src="images/gallery-img2.jpg" style="width:180px;height:155px;">
+									</div>
+									<div style="width:700px;min-height:155px;display:inline-block;">
+										<h3>Caterpillar Drawdio</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu arcu eu eros blandit vestibulum et et ipsum. Vestibulum non porta nulla. Nullam volutpat posuere lectus. In hac habitasse platea dictumst. Quisque condimentum placerat lorem, quis volutpat tortor rhoncus in. Integer placerat mollis orci, eget consectetur quam fringilla in. Nullam vitae aliquet
+										</p>
+										<div style="text-align:right;width:92%;">
+											<a class="self_but group1" href="images/gallery-img2.jpg" title="Caterpillar Drawdio">Photos</a>
+											<a class="group1" href="images/gallery-img3.jpg" title="Circuit of Drawdio"></a>
+											<a class="self_but youtube" href="http://www.youtube.com/v/O9Q8r5n_vTI?rel=0&wmode=transparent">Video</a>
+										<div>
+									</div>
+								</article>
+								<br/>
+								<article class="grid"  style="border-top:1px solid #909599">
+									<br/>
+									<div style="width:180px;height:155px;display:inline-block;margin-right:20px;">
+										<img src="images/gallery-img1.jpg" style="width:180px;height:155px;">
+									</div>
+									<div style="width:700px;min-height:155px;display:inline-block;">
+										<h3>Crab Bot</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu arcu eu eros blandit vestibulum et et ipsum. Vestibulum non porta nulla. Nullam volutpat posuere lectus. In hac habitasse platea dictumst. Quisque condimentum placerat lorem, quis volutpat tortor rhoncus in. Integer placerat mollis orci, eget consectetur quam fringilla in. Nullam vitae aliquet
+										</p>
+										<div style="text-align:right;width:92%;">
+											<a class="self_but group2" href="images/gallery-img1.jpg">Photos</a>
+											<a class="group2" href="images/gallery-img3.jpg"></a>
+											<a class="self_but youtube" href="http://www.youtube.com/v/O9Q8r5n_vTI?rel=0&wmode=transparent">Video</a>
+										<div>
+									</div>
+								</article>
+								<br/>
+								<article class="grid"  style="border-top:1px solid #909599">
+									<br/>
+									<div style="width:180px;height:155px;display:inline-block;margin-right:20px;">
+										<img src="images/gallery-img4.jpg" style="width:180px;height:155px;">
+									</div>
+									<div style="width:700px;min-height:155px;display:inline-block;">
+										<h3>Glow in the Dark Bug</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu arcu eu eros blandit vestibulum et et ipsum. Vestibulum non porta nulla. Nullam volutpat posuere lectus. In hac habitasse platea dictumst. Quisque condimentum placerat lorem, quis volutpat tortor rhoncus in. Integer placerat mollis orci, eget consectetur quam fringilla in. Nullam vitae aliquet
+										</p>
+										<div style="text-align:right;width:92%;">
+											<a class="self_but group3" href="images/gallery-img4.jpg">Photos</a>
+											<a class="group3" href="images/gallery-img5.jpg"></a>
+											<!--<a class="self_but youtube" href="http://www.youtube.com/v/O9Q8r5n_vTI?rel=0&wmode=transparent">Video</a>-->
+										<div>
+									</div>
+								</article>
+								<br/>
 							</div>
 						</div>
 					</div>
