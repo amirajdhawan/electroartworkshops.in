@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Electro Art Workshops</title>
+    <meta name="ROBOTS" content="INDEX,FOLLOW" >
+    <meta  name="keywords" content="electronics,electro,art,workshops,thane,belapur,workshop,electronic,kids,electroartworkshops" >
+    <meta name="description" content="Electronics plus art workshops for kids in thane, belapur, mumbai" >
+    <meta charset="utf-8">
+    <link rel="favicon icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen"> 
+    <script src="js/jquery-1.6.2.min.js" type="text/javascript"></script>
+    <script src="js/jquery.galleriffic.js" type="text/javascript"></script>
+    <script src="js/jquery.opacityrollover.js" type="text/javascript"></script>      
+    <!--[if lt IE 7]>
+        <div style=' clear: both; text-align:center; position: relative;'>
+            <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0"  alt="" /></a>
+        </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/html5.js"></script>
+        <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+    <![endif]-->
+</head>
+<body id="page1">
+    <!--==============================header=================================-->
+    <header>
+        <div class="row-1">
+            <div class="main">
+                <div class="container_12">
+                    <div class="grid_12">
+                        <nav>
+                            <ul class="menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="projects.html">Projects</a></li>
+                                <li><a style="width:175px;" href="workshops.html">Past Workshops</a></li>
+                                <li><a href="kits.html">Kits</a></li>
+                                <li><a class="active"  href="contactus.php">Contact Us</a></li>
+                                <li><a class="signup" href="http://eepurl.com/AM1vP">Sign Up For Updates</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="main">
+                <div class="container_12">
+                    <div class="grid_9">
+                        <h1>
+                            <!--<a class="logo" href="index.html">Ele<strong>c</strong>tro Art Workshops</a>-->
+                            <a href="index.html"><img src="images/logo.png" height="100px" width="400px" /></a>
+                            <span></span>
+                        </h1>
+                    </div>
+                    <div class="grid_3">
+                        <span>Like us on Facebook or</span><br/><span>Follow us on Twitter</span>
+                        <ul class="list-services">
+                            <li><a href="http://www.facebook.com/ElectroArtWorkshops" target="_blank"></a></li>
+                            <li><a class="item-2" href="https://twitter.com/ElectroArtW" target="_blank"></a></li>
+                            <!--<li><a class="item-3" href="#"></a></li>
+                            <li><a class="item-4" href="#"></a></li>-->
+                        </ul>
+                     </div>
+                     <div class="clear"></div>
+                </div>
+            </div>
+        </div>      
+    </header><div class="ic">More Website Templates  @ TemplateMonster.com - August22nd 2011!</div>
+
+<!-- content -->
+    <section id="content">
+        <div class="bg-top">
+            <div class="bg-top-2">
+                <div class="bg">
+                    <div class="bg-top-shadow">
+                        <div class="main">
+                            <div class="box p3">
+                                <div class="padding">
+                                    <div class="container_12">
+                                        <div class="wrapper">
+                                            <div class="grid_12">
+                                            <div class="wrapper">
+                                                    <article class="grid_4 alpha" style="border-right:thin solid #C0C0C0;height:500px;">
+                                                        <div class="indent">
+                                                            <h3 class="prev-indent-bot2">Electro Art Workshops</h3>
+                                                            <div style="width:90%;border-style:solid;border-bottom:thin solid #C0C0C0;">&nbsp;</div>
+                                                            <br/>
+                                                            <label><strong>Email: </strong></label><a target="_blank" href="mailto:info@electroartworkshops.in">info@electroartworkshops.in</a>
+                                                            <br/><br/>
+                                                            <label><strong>Address: </strong></label><p>A104, Trimbak Tower,<br/>Plot No-86, Sector- 15,<br/>CBD Belapur<br/><br/>
+                                                            <label><strong>Phone: </strong></label>+91-9920678775
+                                                        </div>
+                                                    </article>
+                                                    <article class="grid_8 omega">
+                                                        <div class="indent-right">
+                                                            <h3 class="p2">Contact Us</h3>
+                                                            <span style="">&nbsp;</span>
+                                                            <img style="width:600px;" src="images/contactus.jpg">
+                                                            <!--<form id="contact-form" method="post" action="" enctype="multipart/form-data">                    
+                                                        <fieldset>
+                                                              <label><span class="text-form"><strong>Name:</strong></span><input name="name" type="text" /></label>
+                                                              <label><span class="text-form"><strong>Email:</strong></span><input name="email" type="text"/></label>   
+                                                              <label><span class="text-form"><strong>Phone:</strong></span><input name="phone" type="text" /></label>                                    
+                                                              <label ><strong>Message:</strong></label><textarea name="msg" style="width:490px;"></textarea> 
+                                                                <br/>
+                                                              <span>&nbsp;</span>
+                                                              <div class="buttons">
+                                                                  <a class="button" href="#" onClick="document.getElementById('contact-form').reset()">Clear</a>
+                                                                  <a class="button" href="#" onClick="document.getElementById('contact-form').submit()">Send</a>
+                                                              </div>                             
+                                                        </fieldset>                     
+                                                    </form>
+                                                            <div class="wrapper prev-indent-bot2">
+                                                                <figure class="img-indent2 frame2"><img src="images/page2-img1.jpg" alt="" /></figure>
+                                                                <div class="extra-wrap">
+                                                                    <h6 class="prev-indent-bot">At vero eos et accusamus et iusto odio dignissimos ducims qui blanditiis praesentium. </h6>
+                                                                    Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+                                                                </div>
+                                                            </div>
+                                                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae taque earum rerum.</p>
+                                                            <a class="button" href="#">Read More</a>-->
+                                                        </div>
+                                                    </article>
+                                                    <!--<h3 class="p2">Contact Form</h3>
+                                                    <form id="contact-form" method="post" enctype="multipart/form-data">                    
+                                                        <fieldset>
+                                                              <label><span class="text-form">Name:</span><input name="p1" type="text" /></label>
+                                                              <label><span class="text-form">Email:</span><input name="p2" type="text" /></label>   
+                                                              <label><span class="text-form">Phone:</span><input name="p3" type="text" /></label>                                    
+                                                              <div class="wrapper"><div class="text-form">Message:</div><textarea></textarea></div>
+                                                              <div class="buttons">
+                                                                  <a class="button" href="#" onClick="document.getElementById('contact-form').reset()">Clear</a>
+                                                                  <a class="button" href="#" onClick="document.getElementById('contact-form').submit()">Send</a>
+                                                              </div>                             
+                                                        </fieldset>                     
+                                                    </form>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="bg-bot">
+            <div class="main">
+                <div class="container_12">
+                    <div class="wrapper">
+                        <article class="grid_4" style="width:750px;height:100px;">
+                            <h3 class="prev-indent-bot">Testimonials</h3>
+                            <div id="div1">
+                                <div class="quote">
+                                   <p class="prev-indent-bot">Conceptualized and very nicely conducted workshop. Keep it up!</p>
+                                    <h5>Aatmaj's Father</h5>
+                                </div>
+                            </div>
+                            <div id="div2">
+                                <div class="quote">
+                                   <p class="prev-indent-bot">Well conducted and planned.</p>
+                                    <h5>Srishtee's Mother</h5>
+                                </div>
+                            </div>
+                            <div id="div3">
+                                <div class="quote">
+                                   <p class="prev-indent-bot">My child was confortable and understood everything.</p>
+                                    <h5>Anugrah's Mother</h5>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="grid_4">
+                            <a href="http://www.000webhost.com/" target="_blank"><img src="http://www.000webhost.com/images/120x60_powered.gif" alt="Web Hosting" width="120" height="60" border="0" /></a>
+                        </article>
+                        <!--<article class="grid_4">
+                            <h3 class="prev-indent-bot">What’s New?</h3>
+                            <time class="tdate-1" datetime="2011-08-15"><a class="link" href="#">15.08.2011</a></time>
+                            <p class="prev-indent-bot">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                            <time class="tdate-1" datetime="2011-08-11"><a class="link" href="#">11.08.2011</a></time>
+                            Totam rem aperiam, eaque ipsa quae ab illo inven tore veritatis et quasi architecto.
+                        </article>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--==============================footer=================================-->
+    <footer>
+        <div class="main">
+            <div class="container_12">
+                <div class="wrapper">
+                    <div class="grid_4" style="width:400px;">
+                        <div>Electro Art Workshops @ 2013 <a class="link color-3" href="#"></a></div>
+                        <div><a rel="nofollow" target="_blank" href="http://www.templatemonster.com/">Website Template</a> by TemplateMonster.com | <a rel="nofollow" target="_blank" href="http://www.html5xcss3.com/">html5xcss3.com</a></div>
+                        <!-- {%FOOTER_LINK} -->
+                    </div>
+                    <div class="grid_4" style="width:530px;">
+                        <span class="phone-numb"><span>+91-</span> 9920678775 / </span>
+                        <span class="phone-numb"><span>+91-</span> 9987311930</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript">
+    $(function () {
+        var counter = 0,
+            divs = $('#div1, #div2, #div3');
+        function showDiv () {
+            divs.hide() // hide all divs
+                .filter(function (index) { return index == counter % 3; }) // figure out correct div to show
+                .show('fast'); // and show it
+            counter++;
+        }; // function to loop through divs and show correct div
+        showDiv(); // show first div    
+        setInterval(function () {
+            showDiv(); // show next div
+        }, 4 * 1000); // do this every 10 seconds    
+    });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-41667854-1', 'electroartworkshops.in');
+      ga('send', 'pageview');
+    </script>            
+</body>
+</html>
+<?php
+/*if((isset($_POST['email']) || isset($_POST['name']) || isset($_POST['phone'])) && isset($_POST['msg'])) {    
+    $name = $_POST['name'];
+    $emailid = $_POST['email'];
+    $phone = $_POST['phone'];
+    $to = 'info@electroartworkshops.in';
+    $subject = 'Contact Us @ Electro Art Workshops';
+
+    $mail_body = 'Name: ' . $name . '\nPhone: ' . $phone . '\nEmail: ' . $emailid . '\n\nMessage: ' . $_POST['msg'];
+
+    if(empty(trim($emailid))
+    {
+        $headers = "From: webmaster@electroartworkshops.in" ;
+    }
+    else
+    {
+        $headers = "From: " . $emailid;
+    }
+    mail($to, $subject, $mail_body, $headers);
+}*/
+?>
