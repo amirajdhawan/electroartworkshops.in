@@ -73,8 +73,50 @@
 				<div class="bg">
 					<div class="bg-top-shadow">
 						<div class="main">
-							<div class="gallery p3" style="text-align:center;">
-								<img src="images/coming.jpg"  />
+							<div class="gallery p3">
+								<h3>Past Workshops</h3>
+								<div class="wrapper indent-bot">
+									<div id="gallery" class="content">
+									   <div class="wrapper">
+										   <div class="slideshow-container">
+												<div id="slideshow" class="slideshow"></div>
+											</div>
+										</div>
+									</div>
+									<div id="thumbs" class="navigation">
+										<ul class="thumbs noscript">
+											<li>
+												<a class="thumb" href="images/pw1.jpg" title=""> <img style="width:140px;height:121px;" src="images/pw1.jpg" alt="" /><span></span> </a>
+											</li>
+											<li>
+												<a class="thumb" href="images/pw2.jpg" title=""> <img style="width:140px;height:121px;" src="images/pw2.jpg" alt="" /><span></span> </a>
+											</li> 
+											<li>
+												<a class="thumb" href="images/pw3.jpg" title=""> <img style="width:140px;height:121px;" src="images/pw3.jpg" alt="" /> <span></span></a>
+											</li> 
+											<li>
+												<a class="thumb" href="images/pw4.jpg" title=""> <img style="width:140px;height:121px;" src="images/pw4.jpg" alt="" /> <span></span></a>
+											</li> 
+											<li>
+												<a class="thumb" href="images/pw5.jpg" title=""> <img style="width:140px;height:121px;" src="images/pw5.jpg" alt="" /> <span></span></a>
+											</li> 
+											<li>
+												<a class="thumb" href="images/pw6.jpg" title=""> <img style="width:140px;height:121px;" src="images/pw6.jpg" alt="" /> <span></span></a>
+											</li>
+											<li>
+												<a class="thumb" href="images/pw7.jpg" title=""> <img style="width:140px;height:121px;" src="images/pw7.jpg" alt="" /> <span></span></a>
+											</li>                    
+										</ul>
+									</div>
+								</div>
+								<div class="inner">
+									<div class="wrapper">
+										<!--<span class="title img-indent3">HELLO!</span>
+										<div class="extra-wrap indent-top2">
+											Collaboration between <strong>Science/Electronics</strong> and <strong>Art</strong> has the potential to create new knowledge, ideas and processes beneficial to both sides. This is the concept behind our unique workshops that will nourish both the right and left side of the brain of your child. Here is the unique collision of electronics/science and art in the following fun and educational creations.
+										</div>-->
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -132,6 +174,60 @@
 			</div>
 		</div>
 	</footer>
+	<script type="text/javascript">
+	$(window).load(function() {
+	// We only want these styles applied when javascript is enabled
+	$('div.navigation').css({'width' : '320px', 'height' : '550px', 'float' : 'right'});
+	$('div.content').css('display', 'block');
+	
+	// Initially set opacity on thumbs and add
+	// additional styling for hover effect on thumbs
+	var onMouseOutOpacity = 0.5;
+	$('#thumbs ul.thumbs li span').opacityrollover({
+		mouseOutOpacity:   onMouseOutOpacity,
+		mouseOverOpacity:  0.0,
+		fadeSpeed:         'fast',
+		exemptionSelector: '.selected'
+	});
+			
+	// Initialize Advanced Galleriffic Gallery
+	var gallery = $('#thumbs').galleriffic({
+		delay:                     2500,
+		numThumbs:                 6,
+		preloadAhead:              8,
+		enableTopPager:            true,
+		enableBottomPager:         true,
+		maxPagesToShow:            7,
+		imageContainerSel:         '#slideshow',
+		controlsContainerSel:      '',
+		captionContainerSel:       '',
+		loadingContainerSel:       '',
+		renderSSControls:          true,
+		renderNavControls:         true,
+		playLinkText:              'Play Slideshow',
+		pauseLinkText:             'Pause Slideshow',
+		prevLinkText:              'Prev',
+		nextLinkText:              'Next',
+		nextPageLinkText:          'Next',
+		prevPageLinkText:          'Prev',
+		enableHistory:             true,
+		autoStart:                 7000,
+		syncTransitions:           true,
+		defaultTransitionDuration: 900,
+		onSlideChange:             function(prevIndex, nextIndex) {
+		   // 'this' refers to the gallery, which is an extension of $('#thumbs')
+					this.find('ul.thumbs li span')
+						.css({opacity:0.5})
+				},
+				onPageTransitionOut:       function(callback) {
+					this.find('ul.thumbs li span').css({display:'block'});
+				},
+				onPageTransitionIn:        function() {
+					this.find('ul.thumbs li span').css({display:'none'});
+				}
+			});
+		});
+	</script>
 	<script type="text/javascript">
 	$(function () {
 		var counter = 0,
