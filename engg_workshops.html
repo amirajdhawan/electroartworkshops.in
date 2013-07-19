@@ -44,24 +44,39 @@
 		#nav ul li{
 			padding-top:1px; /* Introducing a padding between the li and the a give the illusion spaced items */
 			float:none;
+			width:200px;
+			font-size: 20px;
+			text-align: left;
 		}
 		#nav ul a{
 			white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
 		}
 		#nav li:hover ul{ /* Display the dropdown on hover */
 			left:0; /* Bring back on-screen when needed */
+			width:200px;
+			font-size: 20px;
+			text-align: left;
 		}
 		#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
-			/*background:#6b0c36;*/
 			/*text-decoration:underline;*/
 			left:0;
 		}
 		#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
 			text-decoration:none;
+			background:#fff;
+			width:200px;
+			font-size: 20px;
+			border: 1px solid #000;
+			text-align: left;
 		}
 		#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
 			/*background:#333;*/
 			left:0;
+			background: #000;
+			width:200px;
+			font-size: 20px;
+			border: 1px solid #000;
+			text-align: left;
 		}
 
 
@@ -119,8 +134,8 @@
 								
 								<li><a class="active" href="projects.html">Projects</a>
 								<ul>
-									<li><a href="projects.html">School Workshops</a></li>
-					            	<li><a href="engg_workshops.html">Engineering Workshops</a></li>
+									<li><a href="projects.html"><span style="width:8px;">&nbsp;</span>School Level</a></li>
+					            	<li><a href="engg_workshops.html"><span style="width:8px;">&nbsp;</span>Engineering Level</a></li>
 								</ul>
 								</li>
 								<li><a style="width:200px;" href="workshops.html">Past Workshops</a></li>
